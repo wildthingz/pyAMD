@@ -10,7 +10,7 @@ setup(name = 'pyAMD',
 	version = '0.1.0',
 	description = 'A tool to find the optimal segmentation size for visualising macrosegregation -- An extension to MakeContour',
 	long_description = long_description,
-	url = 'https://github.com/wildthingz/AMD',
+	url = 'https://github.com/wildthingz/pyAMD',
 	author = 'Hatef Khadivinassab',
 	author_email = 'hatef.hadivinassab@gmail.com',
 
