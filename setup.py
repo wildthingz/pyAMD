@@ -8,7 +8,7 @@ with open(path.join(here, 'README.md')) as f:
 
 setup(name = 'pyAMD',
 	version = '0.1.0',
-	description = 'A tool to find the optimal segmentation size for visualising macrosegregation -- An extension to MakeContour',
+	description = 'A tool to find the optimal mesh density for visualising macrosegregation -- An extension to MakeContour',
 	long_description = long_description,
 	url = 'https://github.com/wildthingz/pyAMD',
 	author = 'Hatef Khadivinassab',
@@ -31,6 +31,6 @@ setup(name = 'pyAMD',
 
 	install_requires=['numpy','scipy','MakeContour'],
 	license = 'Creative Commons Attribution-Noncommercial-Share Alike license',
-	keywords = ['AMD', 'macrosegregation', 'segmenation', 'visaliziation', 'contour']
+	keywords = ['AMD', 'macrosegregation', 'mesh density', 'visaliziation', 'contour']
 
 	)
