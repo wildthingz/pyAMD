@@ -6,7 +6,7 @@ here = path.abspath(path.dirname(__file__))
 with open(path.join(here, 'README.md')) as f:
 	long_description = f.read()
 
-setup(name = 'AMD',
+setup(name = 'pyAMD',
 	version = '0.1.0',
 	description = 'A tool to find the optimal segmentation size for visualising macrosegregation -- An extension to MakeContour',
 	long_description = long_description,
