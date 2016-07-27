@@ -19,10 +19,30 @@ Fig 3. shows the comparison of the actual gradient the calculated gradient using
 Fig4. illustrates the final contour maps.
 <p align="center"><img src=doc/images/img4.png width="800"></p>
 <p align="center"><i>fig4.</i> Final contour maps for 1D-DI (left) and 2d-ID (right) .</p>
-# Prerequisites
+# Requiurements
 - Python 2.7
 - Tecplot
-- MakeContour module
+- `MakeContour` module
+
+# Installation
+
+Installing pyAMD is easily done using pip. Assuming it is installed, just run the following from the command-line:
+
+```
+pip install pyAMD
+```
+
+This command will download the latest version of pyAMD from the Python Package Index and install it to your system.
+
+Alternatively, you can install from the distribution using the setup.py script. The source is stored in the GitHub repo, which can be browsed at:
+
+https://github.com/wildthingz/pyAMD
+
+Simply download and unpack, then navigate to the download directory and run the following from the command-line:
+
+```
+python setup.py install
+```
 
 # Tested versions
 These scripts have been tested using:
