@@ -13,7 +13,7 @@ setup(name = 'pyAMD',
 	url = 'https://github.com/wildthingz/pyAMD',
 	author = 'Hatef Khadivinassab',
 	author_email = 'hatef.hadivinassab@gmail.com',
-
+	packages = ['pyAMD']
 	classifiers=[
 		"Development Status :: 3 - Alpha",
         "License :: OSI Approved :: MIT License",
