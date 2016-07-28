@@ -28,8 +28,6 @@ setup(name = 'pyAMD',
 		'Intended Audience :: End Users/Desktop',
 		'Natural Language :: English',
 		],
-
-	install_requires=['numpy','scipy','MakeContour'],
 	license = 'Creative Commons Attribution-Noncommercial-Share Alike license',
 	keywords = ['AMD', 'macrosegregation', 'mesh density', 'visaliziation', 'contour']
 
