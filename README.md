@@ -2,7 +2,9 @@
 This code is used to determine the optimal mesh size for visulazing segregation. In order to test this code a series of carefully designed microstructure-like images were generated using `gradientGen.py`. (fig1). 
 <p align="center"><img src=doc/images/img1.png width="800"></p>
 <p align="center"><i>fig1.</i> Sample microstructure-like images, with 1D linearly decreasing-increasing (left) and 2D linearly increasing-decreasing (right) structures having area fraction between 0.05 and 0.15.</p>
+
 ##  Methods
+
 ### `gradientGen`
 In order to generate these images, a series of random binary matrices with fixed densities were attached together, resulting in a final 1000x1000 matrix. It should be noted that the shape of the resultant square matrix can be changed within the code.
 ### `AMD`
